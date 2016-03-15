@@ -15,7 +15,7 @@ sys.setdefaultencoding("utf-8")
 def spider(url):
     rand = random.randint(0, 99)
     # print rand % 3
-    html = requests.get(url, cookies=weibo_cookie.weiboCookies[rand % 3]).content
+    html = requests.get(url, cookies=weibo_cookie.weiboCookies[2]).content
     return html
 
 

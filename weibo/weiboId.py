@@ -9,7 +9,7 @@ sys.setdefaultencoding("utf-8")
 if __name__ == '__main__':
 
     f = open('weiboIdList.txt', 'r')
-    length_old = 97100
+    length_old = 100000
     length_new = len(f.readlines())
     print 'list range : ' + 'from ' + str(length_old) + ' to ' + str(length_new)
     f.close()
